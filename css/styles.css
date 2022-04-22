@@ -1,0 +1,152 @@
+#title {
+background-color: rgb(225, 250, 225);
+}
+
+h1 {
+    font-family: 'Space Mono', monospace;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+
+    font-family: 'Space Mono', monospace;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.PlayGame-button{
+    margin: 1% 1% 0% 0%;
+  }
+  .nav-item{
+    padding: 1.5px 1px;
+  }
+  .avatar-image {
+    transform: rotate(10deg);
+    margin: 7% 0% 8% 0%;
+  }
+  /*media query ng title*/
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .avatar-image{
+  border-radius:  100%;
+  transform: rotate(0deg);
+}
+} 
+  .New {
+    padding: 10rem 0 10rem 0;
+    margin: 2rem;
+    text-align: center;
+  }
+  .fa-chrome {
+    color: green;
+    font-size: 3rem;
+  }
+  .fa-costumize {
+    color: green;
+    font-size: 3rem;
+  }
+  .fa-costumize:hover {
+    color: red;
+  }
+  .fa-chrome:hover {
+    color: red;
+  }
+
+      /* Media Query Features Section  */
+      @media (max-width:1028px){
+        #features {
+          text-align: center;
+        }
+        h3 {
+          font-family: 'Indie Flower', cursive;
+          font-size: 1.5rem;
+        }
+        p {
+          font-family: 'Indie Flower', cursive;
+          font-size: 15px;
+        }
+      }
+      
+
+  /*Testimonial Section*/
+    #testimonials{
+      text-align: center ;
+      background-color: rgb(225, 250, 225);
+      color: black;
+          
+      }
+   .carousel-item{
+     padding: 7% 15%;
+   }
+   .testimonial-image{
+     width: 60%;
+     border-radius: 5%;
+     margin: 20px;
+   }
+  /* Media Query  Pricing Section */
+  @media (max-width:1028px){
+    #pricing {
+      text-align: center;
+    }
+    h1 {
+      font-family: 'Tangerine', cursive;
+      font-size: 1.5rem;
+    }
+  }
+ 
+  /*press Section*/
+  #press{
+    background-color: rgb(225, 250, 225);
+  }
+  .press-logo{
+    width: 12%;
+  }
+  /*Price Section*/
+  #pricing{
+    padding: 100px;
+    text-align: center;
+  }
+  .pricing-colunm{
+    padding: 3% 2%;
+  }
+  .Card-Header{
+    background-color: #e9fcd0;
+  }
+  
+  .card-body{
+    background-color: #81c6ffc4;
+  }
+  /* Media Query  Pricing Section */
+@media (max-width:1028px){
+  #pricing {
+    text-align: center;
+  }
+  h5{
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+  }
+  p {
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+  }
+}
+  
+  #Finals{
+    text-align: center;
+    background-color: rgb(225, 250, 225); 
+    padding: 10% 20% 5% 20%;
+  }
+
+  .download-button {
+    margin: 5% 3% 5% 0%;
+  }
+
+  #footer{
+    text-align: center;
+  }
